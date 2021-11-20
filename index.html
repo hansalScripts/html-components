@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flat Website Template</title>
-    <link rel="shortcut icon" href="images/balck-fav.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./media/balck-fav.png" type="image/x-icon" />
     <!-- some seo tags -->
     <meta name="author" content="Hansal Scripts" />
     <meta
@@ -46,23 +46,42 @@
       rel="stylesheet"
     />
     <!-- normalize library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-        <nav>
-            <a href="#" class="brand-img">
-                <img src="images/black-logo.png" alt="logo" />
-            </a>
-        </nav>
+      <nav>
+        <div class="container">
+          <a href="#" class="brand-img">
+            <img src="./media/light-logo.png" alt="logo" />
+          </a>
+        </div>
+      </nav>
+      <div class="hero">
+        <div class="container">
+          <div class="hero-text">
+            <h3>Hi, I'm Hansal</h3>
+            <p>Web developer in your service</p>
+          </div>
+          <img src="./media/hero-bg-0.png" alt="hero" />
+        </div>
+      </div>
     </header>
-
-
-
-
-
-    <script src="main.js"></script>
+    <section id="projects">
+        <h3>Our HTML, CSS components</h3>
+        <div class="projects-wrap">
+            <div class="box">
+                <h4>{{ Project Name }}</h4>
+                <img src=".media/projecs/custom-order.png" alt="custom order">
+                <p>{{ short description }}</p>
+                <a href="#"> {{ project URI }} </a>
+            </div>
+        </div>
+    </section>
+    <!-- <script src="main.js"></script> -->
   </body>
 </html>
-
