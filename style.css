@@ -1,0 +1,17 @@
+/*
+Theme Name: flat
+Author: Hansal Scripts
+Description: convert photos and psd template using pure css.
+Tags: hansal, scripts.
+Version: 1.0.
+License: MIT License 
+*/
+
+/* global style rules */
+* {
+  font-family: "PT Sans", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
