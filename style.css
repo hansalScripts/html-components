@@ -31,7 +31,9 @@ nav img {
 }
 /* start hero section */
 .hero {
-    background: #440101;
+    background-color: #440101;
+    background-image: linear-gradient(
+35deg, black, transparent);
     height: 75vh;
     overflow: hidden;
 }
