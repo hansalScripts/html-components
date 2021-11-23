@@ -1,0 +1,135 @@
+/* 
+body background color : #0D1A2D
+card background color: #15273F
+hover color : #009FB7
+text color : #7A91AD
+*/
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  color: #7e94b1;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 300;
+  font-size: 18px;
+  padding-bottom: 17px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 700px;
+}
+
+.card {
+    width: 262px;
+    padding: 13px;
+    background: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    border: 1px solid #061224;
+    box-shadow: inset 0px 20px 10px #0d192b, inset 0px 20px 10px #0d192b;
+}
+
+.card-image {
+  position: relative;
+  height: 225px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.card-image img,
+.image-hover {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.image-hover {
+  background: #15f8ff7d;
+  height: 116%;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+img.eye-image {
+  width: 25%;
+  margin: calc(75% / 2);
+}
+
+.image-hover:hover {
+  opacity: 1;
+}
+
+h3 {
+  cursor: pointer;
+  padding-bottom: 15px;
+  padding-top: 49px;
+  transition: 0.3s;
+}
+
+h3:hover {
+  color: #15f8ff;
+}
+.card-status {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 25px 0;
+}
+
+.left span {
+    color: #00fff8;
+    padding: 0 5px;
+}
+
+.card-footer {
+    border-top: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.card-footer img {
+    width: 15%;
+    border: 1px solid;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.card-footer a {
+    color: #6694b1;
+    text-decoration: none;
+    padding-left: 5px;
+    transition: 0.2s;
+}
+
+.card-footer a:hover {
+    color:#00fff8;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
