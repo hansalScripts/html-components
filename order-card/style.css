@@ -44,7 +44,7 @@ img.box-header {
     border-radius: 10px 10px 0 0;
 }
 
-h3 {
+h1 {
   margin: 10px 0;
 }
 
@@ -62,7 +62,7 @@ p {
   padding: 15px;
 }
 
-h5 {
+h2 {
   margin: 0 0 0 -65px;
 }
 
@@ -104,7 +104,7 @@ button.cancel {
       width: 100%;
       margin: 15px;
   }
-  h5 {
+  h2 {
       margin: 0;
   }
 }
