@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Js Course</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="container">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="counter" class="container">
+        <div class="card">
+          <h1>Subway Counter</h1>
+          <h2 id="counter_num">0</h2>
+          <div class="button">
+            <button id="increment">Increase</button>
+            <button id="decrement">Decrease</button>
+          </div>
+          <button id="save">Save</button>
+          <p id="preview-p">Previews entries:</p>
+        </div>
+
+        <div class="card">
+          <h1>Calculator</h1>
+          <span id="operator-result">0</span>
+          <div class="math-input">
+            <input type="number" id="first-number" value="" />
+            <span id="operator">?</span>
+            <input type="number" id="second-number" value="" />
+          </div>
+          <div class="button">
+            <button id="plus" class="operator-btn" data-value="+">
+              <i class="fas fa-plus"></i>
+            </button>
+            <button id="minus" class="operator-btn" data-value="-">
+             <i class="fas fa-minus"></i>
+            </button>
+            <button id="divide" class="operator-btn" data-value="/">
+              <i class="fas fa-divide"></i>
+            </button>
+            <button id="malti" class="operator-btn" data-value="*">
+              <i class="fas fa-times"></i>
+            </button>
+            <button id="percent" class="operator-btn" data-value="%">
+              <i class="fas fa-percentage"></i>
+            </button>
+          </div>
+          <button id="submit-math"><i class="fas fa-equals"></i></button>
+        </div>
+        <div class="card" id="blackjack-card">
+          <h1>BlackJack Game</h1>
+          <h2>Want paly around ? </h2>
+          <div class="blackjack-numbers">
+            <p id="blackjack-cards">Cards</p>
+            <p id="blackjack-sum">Sum</p>
+          </div>
+          <button id="new-roll-blackjack-btn">Roll</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2021 @Hansal All right received</p>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
