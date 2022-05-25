@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-header d-flex">
+          <div class="left">
+            <h3>My balance</h3>
+            <p>$921.48</p>
+          </div>
+          <div class="right">
+            <img alt="" src="./assets/images/logo.svg" />
+          </div>
+        </div>
+        <div class="card-body">
+          <h4>Spending - Last 7 days</h4>
+          <div class="chart-area">
+            <canvas id="myChart" width="300" height="400"></canvas>
+          </div>
+          <div class="card-footer d-flex">
+            <div class="left">
+              <p>Total this month</p>
+              <h3>$478.33</h3>
+            </div>
+            <div class="right">
+              <h4>+2.4%</h4>
+              <p>from last month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://hansal-scripts.com">hansal scripts</a>.
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="./assets/data.js"></script>
+    <script src="./assets/main.js"></script>
+  </body>
+</html>

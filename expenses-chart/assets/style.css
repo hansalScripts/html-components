@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,400;1,700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --soft-red :hsl(10, 79%, 65%);
+    --cyan: hsl(186, 34%, 60%);
+    --dark-brown: hsl(25, 47%, 15%);
+    --medium-brown: hsl(28, 10%, 53%);
+    --cream: hsl(27, 66%, 92%);
+    --very-pale-orange: hsl(33, 100%, 98%);
+}
+
+body {
+    background-color: #F0F0F0;
+    background-image: url('./images/bg-body.png');
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1, h2, h3, h4, h5, h5 {
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1081px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: var(--cream);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    min-width: 375px;
+    margin: 0 15px;
+    padding: 15px;
+}
+
+.card-header {
+    background-color: var(--soft-red);
+    border-radius: 7px;
+    color: var(--cream);
+    padding: 15px;
+}
+
+.card-header h3 {
+    font-size: 1rem;
+}
+
+.card-header p {
+    font-size: 1.5rem;
+}
+
+.card-body {
+    background-color: var(--very-pale-orange);
+    margin-top: 17px;
+    min-height: 500px;
+    border-radius: 7px;
+}
+
+.card-body h4 {
+    padding:15px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.chart-area {
+    min-height: 360px;
+    padding: 15px;
+}
+
+.card-footer {
+    border-top: 1px solid var(--cream);
+    margin: 28px 15px;
+    padding: 23px 0px;
+}
+
+.card-footer p {
+    color: var(--medium-brown);
+}
+.card-footer .right h4 {
+    padding: 0;
+    text-align: right;
+}
+
+
+.card .card-footer h3 {
+    font-size: 2rem;
+}
+
+
+@media (max-width:375px) {
+    .container {
+        margin: 0;
+    }
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
